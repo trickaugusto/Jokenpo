@@ -19,3 +19,5 @@ $imput = readline("Escolhe logo, caramba: ");
 $fight = new Player($imput);
 
 echo "\n#################################################################################\n";
+
+// OBS: USAR system('clear');
