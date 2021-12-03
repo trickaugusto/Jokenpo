@@ -18,8 +18,8 @@ require_once 'Winner.php';
 
 class Player extends Winner
 {
-    public $gunPlayer;
-    public $Computer;
+    protected $gunPlayer;
+    protected $Computer;
 
     public function __construct($choicePlayer)
     {
